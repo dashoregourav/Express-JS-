@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<%-include('./partials/head.ejs')%>
+    <body>
+        <%- include('./partials/nav.ejs')%>
+        <h1>Welcome to the User Page</h1>
+        <form action="/user" method="Post">
+            <label for="uname">Enter User Name</label>
+            <input type="text" name="uname">
+            <button>submit</button>
+        </form>
+    </body>
+
+</html>
